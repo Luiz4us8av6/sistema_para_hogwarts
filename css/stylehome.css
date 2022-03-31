@@ -1,0 +1,61 @@
+#section_home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/img/Group\ 687.png) no-repeat;
+    background-size: cover;
+}
+#section_home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section_home h1{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+#section_home p{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+#div_button{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    background: #1D2951;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#div_button{
+    margin-top: 1rem;
+}
+#section_home >div{
+    width: 50%;
+}
+#section_home img{
+    width: 12vmax;
+    right: 0;
+    bottom: 0;
+    position:absolute;
+}
+@media (max-width: 830px) {
+    #section_home h1{
+        font-size: 4vmax;
+    }
+    #section_home p{
+        font-size: 3vmax;
+    }
+    #section_home >div {
+        width: 80%;
+    }
+
+}

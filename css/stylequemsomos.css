@@ -1,0 +1,142 @@
+#section_quemsomos{
+    height: 100vh;
+    background-image: linear-gradient(to top, black, rgb(104, 0, 0));
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_logofundo{
+    height: 100vh;
+    width: 100%;
+    background: url(/img/Rectangle\ 7.png) no-repeat; 
+    background-position: center;
+    background-size:contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_logofundo >div{
+    width: 90%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+.section_logofundo > div{
+    display: block;
+}
+
+.section_logofundo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section_logofundo> div{
+    padding: 2rem;
+    height: auto;
+}
+.div_cima_baixo{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.div_cima_baixo div{
+    width: 50%;
+}
+.div_cima_baixo img{
+    width: 60vmin;
+    height: auto;
+}
+.div_cima_baixo h1, p, h3{
+    color: white;
+}
+.div_imagems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_cima_baixo >div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.div_cima_baixo div div{
+    width: 60vmin;
+}
+.div_cima_baixo h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.div_cima_baixo h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* css esportes */
+#section_esportes{
+    height: 100vh;
+    background-image: linear-gradient(to top, black, 
+    rgb(149, 115, 29));
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_imagems img{
+    width: 30vmax;
+    height: auto;
+}
+.div_imagems img{
+    margin-top: 1rem;
+ 
+}
+@media (max-width: 830px) {
+   .div_cima_baixo{
+       display: block;
+   }
+   #section_quemsomos{
+    height: auto;
+    
+}
+.section_logofundo{
+    height: auto;
+}
+.div_cima_baixo div {
+   width: 100%;
+}
+.section_logofundo> div {
+    padding: 0px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.div_cima_baixo >div {
+    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.div_cima_baixo h1, p, h3 {
+    
+    text-align: justify;
+}
+#section_esportes{
+    height: 100vh;
+    background-image: linear-gradient(to top, black, 
+    rgb(149, 115, 29));
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section_esportes{
+    height: auto;
+   
+}
+.div_imagems img{
+    width: 70%;
+    height: auto;
+}
+}

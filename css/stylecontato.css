@@ -1,0 +1,116 @@
+#section_contato{
+        height: 100vh;
+        background-image: linear-gradient(to top, black, rgb(47, 106, 93));
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+#contato_foto_fundo_esq{
+    position: absolute;
+    left: 0;
+}
+#contato_foto_fundo_dir{
+    position: absolute;
+    right: 0;
+}
+form{
+    width: 25vmax;
+    height: auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 20px;
+}
+form div div{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+form div{
+    width: 100%;
+}
+form h1{
+    color: white;
+    text-align: center;
+}
+input{
+    width: 18vmax;
+    background: none;
+    border: solid 1px white;
+    padding: 0.8rem;
+    color: white;
+    border-radius: 10px;
+}
+textarea{
+    width: 18vmax;
+    padding: 0.8rem;
+    background: none;
+    border: solid 1px white;
+    resize: none;
+    color: white;
+    border-radius:10px ;
+}
+form ul{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+form img{
+    width: 2rem;
+    height: auto;
+}
+#enviar_redes{
+    display: flex;
+    justify-content: center;
+}
+/* #enviar_redes div div{
+    display: block;
+} */
+#enviar_redes{
+    display: flex;
+}
+#div_botao_contato_baixo{
+    text-align: center;
+    margin-top: 1rem;
+}
+@media (max-width: 830px) {
+
+    #contato_foto_fundo_dir{
+        display: none;
+    }
+    #contato_foto_fundo_esq {
+     left: auto;
+     display: none;
+    }
+    form {
+        width: 35vmax;
+        
+    }
+    form img {
+        width: 1.3rem;
+    }
+    .img_contato{
+        z-index: -1;
+    }
+    textarea {
+         width: 28vmax; 
+        
+    }
+    input {
+        width: 28vmax;
+        
+    }
+    form .button{
+        padding: .5rem .5rem;
+    }
+    #enviar_redes > div{
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+#div_botao_contato_baixo .button {
+    padding: .5rem .5rem;
+}
+}
