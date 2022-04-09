@@ -18,7 +18,7 @@ header h3{
 }
 #section_login{
     height: 100vh;
-    background: url(/img/Group\ 687.png) no-repeat;
+    background: url(../img/Group\ 687.png) no-repeat;
     background-size: cover;
 }
 form{
