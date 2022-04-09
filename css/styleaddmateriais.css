@@ -1,0 +1,54 @@
+#form-desh{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 84vh;
+}
+.header_dash{
+    height: 100vh;
+    width: auto;
+    padding: 1rem;
+    position: fixed;
+}
+#form-desh form{
+    background: #F3F3F3;
+    padding: 0.8rem;
+    width: 20vmax;
+    border-radius: 20px;
+}
+.button_azul{
+    border: none;
+    background: #535EBC;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
+.center-addmateria{
+    display: flex;
+    justify-content: center;
+}
+#form-desh input{
+    padding: 0.8rem;
+    width: 90%;
+    font-size: 0.8rem;
+}
+#form-desh select{
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+}
+#form-desh label{
+    font-size: 1.4rem;
+}
+#form-desh div div{
+    margin-bottom: 1rem;
+}
+@media(max-width:950px){
+    #form-desh form {
+        
+        width: 30vmax;
+
+    }
+}

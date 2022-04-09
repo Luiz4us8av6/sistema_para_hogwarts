@@ -1,0 +1,17 @@
+.secaoesportes .modulos-secaoinicial p{
+    padding-bottom: 1rem;
+}
+.secaoesportes #bory-secaoquemsomos{
+    margin-bottom: 12rem;
+}
+#bory-secaoquemsomos{
+    padding-left: 20%;
+}
+.footer-center{
+    padding-left: 20%;
+}
+@media (max-width: 830px) {
+    #bory-secaoquemsomos{
+        padding-left: 0;
+    }
+}

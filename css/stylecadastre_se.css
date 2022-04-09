@@ -1,0 +1,64 @@
+#cadastre_se header{
+    background: #7290AC;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+#div-header-cadastr_se{
+    display: flex;
+    align-items: center;
+}
+#div-header-cadastr_se img{
+    width: 3rem;
+    height: auto;
+}
+#div-header-cadastr_se h3{
+    font-size: 1.3rem;
+    margin-left: 0.8rem;
+}
+#section-footer-cadastre_se{
+    background: #7290AC;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+#section-form{
+    height: 100vh;
+    background: url(/img/Group\ 687.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div-voltar-cadastre_se{
+    display: flex;
+    align-items: center;
+}
+#section-form form{
+    background: #F3F3F3;
+    padding: 2rem;
+    padding-bottom: 0rem;
+}
+#div-button-cadastre_se{
+    display: flex;
+    justify-content: center;
+}
+.center-cadastre-se{
+    display: flex;
+    justify-content: center;
+}
+#section-form input{
+    padding: 0.5;
+}
+
+@media (max-width: 830px){
+    #section-form input {
+        padding: 0.5rem; 
+        width: 90%;
+    }
+    #section-form form{
+        width: 35vmax;
+        padding: 1rem;
+        
+    }
+}

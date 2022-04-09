@@ -1,0 +1,110 @@
+header{
+    background: #7290AC;
+    padding: 0.4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+header > div{
+    display: flex;
+    align-items: center;
+}
+header img{
+    height: 4rem;
+    width: auto;
+}
+header h3{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+#section_login{
+    height: 100vh;
+    background: url(/img/Group\ 687.png) no-repeat;
+    background-size: cover;
+}
+form{
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: solid 1px black;
+    font-size: 1rem;
+    border: none;
+}
+#section_footer_login{
+    background: #7290AC;
+}
+#section_footer_login p{
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+input{
+    width: 15vmax;
+    padding: 1rem;
+    background: none;
+}
+#section_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section_login form{
+    width: 20vmax;
+    height: auto;
+    background: #F3F3F3;
+}
+.button_azul{
+    border: none;
+    background: #535EBC;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
+.button_amarelo{
+    border: none;
+    background: #E9D25D;
+    font-size: 1rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#button_entrar{
+    display: flex;
+    justify-content: right;
+}
+#button_cadastrese{
+    display: flex;
+    justify-content: center;
+}
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#center div div{
+    display: flex;
+    justify-content: center;
+}
+label{
+    font-size: 1.4rem;
+}
+form div{
+    margin-bottom: 1rem;
+}
+@media(max-width:830px){
+    #section_login form {
+        width: 40vmax;
+        height: auto;
+        background: #F3F3F3;
+    }
+    input {
+        width: 80%; 
+        padding: 1rem;
+        background: none;
+    }
+}

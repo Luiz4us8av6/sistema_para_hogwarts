@@ -1,0 +1,52 @@
+#titulo-secaoquemsomos{
+    font-size: 3rem;
+}
+#bory-secaoquemsomos{
+    height: auto;
+    display: flex;
+    justify-content:center;
+    
+}
+#bory-secaoquemsomos >div{
+    width: 50vmax;
+}
+.header_dash {
+    height: 95vh;
+}
+.secaoquemsomos .header_dash{
+    height: 130vh;
+}
+/* #homeinstitucional #section_dash {
+    padding-top:2rem;
+} */
+#bory-secaoquemsomos{
+    padding-top: 5rem;
+}
+#bory-secaoquemsomos{
+    padding-left: 20%;
+}
+.footer-center{
+    padding-left: 20%;
+}
+@media (max-width: 830px) {
+    #titulo-secaoquemsomos {
+        font-size: 1.2rem;
+    }
+    #div-header-homeinsti {
+        display: none;
+    }
+    .secaoinicial-navegacao {
+        
+        padding: 0rem; 
+    }
+    #secaoinicialtitulo h1 {
+        font-size: 1.2rem;
+    }
+    #secaoinicialtitulo {
+        
+        padding-bottom: 1rem;
+    }
+    #bory-secaoquemsomos >div{
+        width: 40vmax;
+    }
+}

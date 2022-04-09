@@ -1,0 +1,48 @@
+#secaoinicial #section_dash {
+     padding: 0rem; 
+}
+#bory-secaoinicial{
+    height: 75vh;
+    display: flex;
+    justify-content:center;
+    padding-left: 20%;
+    /* text-align: center; */
+}
+.secaoinicial-navegacao{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+}
+#secaoinicialtitulo{
+    justify-content: space-between;
+}
+#secaoinicialtitulo h1{
+    font-size: 2rem;
+}
+.modulos-secaoinicial{
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+#secaoinicialtitulo{
+    margin-top: 1rem;
+}
+#section_dash {
+    
+    height: 100vh;
+    
+}
+#bory-secaoinicial-div{
+    margin-top: 3rem;
+}
+#div-footer-dash{
+    padding-left: 20%;
+}
+@media(max-width:950px){
+    #bory-secaoinicial{  
+        padding-left: 0;
+        padding-left: 1rem;
+    padding-right: 1rem;
+    }
+}
